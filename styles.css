@@ -80,3 +80,22 @@ hr {
     border-radius: 8px;
     margin: 15px;
 }
+
+#bottom-container{
+    background-color: #FF9A78;
+    text-align: center;
+    min-height: 150px;
+    display: grid;
+    place-items: center;
+    margin-top: 15px;
+}
+
+#github{
+    text-decoration: none;
+    font-size: 18px;
+    color: #A32900;
+}
+
+#copyright{
+    color: #ffffff;
+}
