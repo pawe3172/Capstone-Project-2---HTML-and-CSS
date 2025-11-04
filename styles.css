@@ -34,3 +34,49 @@ body{
     padding: 50px;
     
 }
+#middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#profile-picture{
+    padding: 100px;
+    width: 150px;
+    height: 150px;
+    border: 50%;
+    border-radius: 50%;
+}
+
+#intro{
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mid-cont-heading{
+    color: #FF9A78;
+    font-style: italic;
+}
+
+#merits > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+hr {
+    border-color: #FF9A78;
+    border-style: dashed;
+}
+
+.button{
+    background-color: #FF9A78;
+    padding: 8px 32px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 15px;
+}
